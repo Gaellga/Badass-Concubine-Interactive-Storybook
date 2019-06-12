@@ -2,7 +2,7 @@
 
 ![Visuel à venir](/assets/img/screen.png "Screenshot")
 
-* Bande dessinée interactive et numérique programmée par [Gaëlle Gaban](https://github.com/Gaellga) et dessinée par [Camille Van Hoof](https://lapetitechose.be/) 
+* Bande dessinée interactive et numérique dessinée par [Camille Van Hoof](https://lapetitechose.be/) et programmée par [Gaëlle Gaban](https://github.com/Gaellga)
 * La partie programmation a été démarrée en juin 2019 et est actuellement en cours d'élaboration  
 * Premier projet solo mixant à la fois travail visuel, front-end et back-end 
 
