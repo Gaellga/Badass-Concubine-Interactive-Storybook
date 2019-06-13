@@ -1,5 +1,6 @@
 <footer class="page-footer mt-5">
-        <div class="container">
+    <div id="containerFoo">
+        <div>
             <div class="row">
                 <div class="follow col-md-12 text-center">
                     <p>Suivez-nous sur :</p>
@@ -18,7 +19,8 @@
         <div class="footer-copyright text-center pb-3 ">© 2018 Copyright:
             <a href="https://github.com/Gaellga">Gaellga Github Page</a>
         </div>
-    </footer>
+    </div>
+</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
