@@ -16,6 +16,6 @@
             </div>
         </div>
         <div class="d-inline float-right ">
-            <a class="langue" href="#">FR</a><span>|</span><a class="langue" href="#">ENG</a>
+            <a class="langue" href="#">FR</a><span id="espace">|</span><a class="langue" href="#">ENG</a>
         </div>
     </nav>

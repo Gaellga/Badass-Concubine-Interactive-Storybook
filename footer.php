@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="follow col-md-12 text-center">
-                    <p>Suivez-nous sur :</p>
+                    <p>Réseaux sociaux? Patreon? :</p>
                 </div>
             </div>
             <div class="row">
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="footer-copyright text-center pb-3 ">© 2018 Copyright:
-            <a href="https://github.com/Gaellga">Gaellga Github Page</a>
+            <a href="https://github.com/Gaellga">propriétaire officiel</a>
         </div>
     </footer>
 

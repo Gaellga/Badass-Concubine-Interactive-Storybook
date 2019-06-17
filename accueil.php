@@ -1,5 +1,5 @@
 <section>
-    <h1 class="jumbotron">Lel</h1>
+    <h1 class="jumbotron">Ceci est la page d'accueil</h1>
         <div class="container pb-4">
             <div class="row">
                 <div class="col-12 col-md-12 text-center">
