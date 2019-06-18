@@ -15,16 +15,23 @@ img {
     vertical-align: middle;
     border: 0;
     -ms-interpolation-mode: bicubic;
-  }
-nav a {
-    color: lightgray;
-    font-size: 1.2em;
-    padding-top: 0.8%;
+}
+section {
+        margin-left: 15vw;
+        margin-right: 15vw;
 }
 .fa, .fas{
     font-weight: 900;
     color: lightgray;
     font-size: 2em;
+}
+
+/*------ ACCUEIL ------- */
+
+nav a {
+    color: lightgray;
+    font-size: 1.2em;
+    padding-top: 0.8%;
 }
 .langue{
     font-size: 0.9em;
@@ -33,12 +40,15 @@ nav a {
     padding-left: 10%;
     padding-right: 10%;
 }
-
-/*------ ACCUEIL ------- */
-
-.jumbotron {
-    background-color: white;
+#containerCouv {
+    background-color: #F5472E;
     text-align: center;
+    height: 100vh;
+}
+#containerCouv img{
+    display: inline-block;
+    height: 100vh;
+    width: auto;
 }
 
 /*------ LECTURE ------- */
@@ -59,6 +69,7 @@ nav a {
     -webkit-box-shadow: 0px 2px 28px -2px rgba(0,0,0,0.26);
     -moz-box-shadow: 0px 2px 28px -2px rgba(0,0,0,0.26);
     box-shadow: 0px 2px 28px -2px rgba(0,0,0,0.26);
+    box-sizing: border-box;
 }
 img.previousNext{
     width: 300px;
