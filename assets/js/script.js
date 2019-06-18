@@ -1,3 +1,5 @@
+// SHOW AND HIDE CAROUSEL
+
 function showDiv() {
     var x = document.getElementById("hiddenDiv");
     if (x.style.display === "none") {

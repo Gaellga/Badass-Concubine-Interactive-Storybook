@@ -6,7 +6,7 @@
                 aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarToggler">
+            <div class="collapse navbar-collapse flex-row" id="navbarToggler">
                 <ul class="nav navbar-nav nav-pills">
                     <li class="nav-item active"><a class="nav-link" href="index.php">Accueil<span class="sr-only">(page
                                 actuelle)</span></a></li>
