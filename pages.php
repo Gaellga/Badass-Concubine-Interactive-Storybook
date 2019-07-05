@@ -3,30 +3,43 @@
     require "header.php";
 ?>
 <section>
-    <h2 id="pagesPitres">Chapitre 1</h2>
+    <div class="centered">
+        <h2 id="pagesPitres">Chapitre 1</h2>
 
-<?php
-    $fourColumns = 0;
-    $rowNumber = 0;
-    $bootstrapColWidth = 12 / $fourColumns;
-    $rows= [];
-?>
+        <div class="row">
 
-<div class="row">
-<?php
-    foreach($rows as $row) {?>  
-    <div class="col-md-<?php echo $bootstrapColWidth; ?>">
-        <div class="containerMini">
-            <img src="assets/img/home-mini-1.jpg">
+            <?php for ( $x = 1 ; $x < 99 ; $x++ ) { ?>
+
+            <div class="col-md-3">
+
+                <div class="col-md-12">
+
+                    <div class="offset-md-1 col-md-11">
+
+                        <section class="cards">
+
+
+
+                            <article class="card" >
+                                <img src="assets/img/ch1/wu_ep1_0000<?=$x?>.jpg" alt="Page suivante 1" />
+                            </article>
+                        </section>
+                    </div>
+
+                </div>
+
+            </div>
+            <?php } ?>
+
         </div>
-<?php
-    $rowNumber++;
-    if($fourColumns == 4) echo '</div><div class="row">';
-}
-?>
-</div>
+
+
+
+
+
+    </div>
+
 </section>
 <?php
     require "footer.php";
 ?>
-
