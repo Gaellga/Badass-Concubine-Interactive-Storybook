@@ -127,5 +127,8 @@ img.previousNext{
 .cards {
     display: flex;
     justify-content: space-between;
-    padding: 0 8% 0 8%;
+    padding: 5%;
+ }
+ #containerCards{
+     margin: 0 5% 0 5%;
  }

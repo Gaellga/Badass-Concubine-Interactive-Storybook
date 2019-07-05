@@ -17,20 +17,20 @@
         <div class="row text-center pb-5">
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_00003.jpg" alt="Page suivante 1" class="chapitrePrev">
+            <img src="assets/img/ch1/wu_ep1_1.jpg" alt="Page suivante 1" class="chapitrePrev">
             </div>
             <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_00012.jpg" alt="Page suivante 1" class="chapitrePrev">
+            <img src="assets/img/ch1/wu_ep1_15.jpg" alt="Page suivante 1" class="chapitrePrev">
             </div>
             <div class="col-md-1"></div>
         </div>
         <div class="row pb-5 text-center">
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_00020.jpg" alt="Page suivante 1" class="chapitrePrev">
+            <img src="assets/img/ch1/wu_ep1_20.jpg" alt="Page suivante 1" class="chapitrePrev">
             </div>
             <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_00022.jpg" alt="Page suivante 1" class="chapitrePrev">
+            <img src="assets/img/ch1/wu_ep1_22.jpg" alt="Page suivante 1" class="chapitrePrev">
             </div>
             <div class="col-md-1"></div>
         </div>
