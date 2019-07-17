@@ -1,65 +1,67 @@
 <header>
-    <div id="containerCouv">
-        <img src="assets/img/couv8-1.jpg" alt="Retour au menu" width="700"/>
+    <div id="containerMain">
+        <img src="assets/img/couv.jpg" alt="Image de couverture" width="700" />
+        <div id="navigation">
+            <ul>
+                <li>
+                    <a href="index.php">>> Continuer</a>
+                </li>
+                <li>
+                    <a href="lecture.php">Démarrer la lecture</a>
+                </li>
+                <li>
+                    <a href="pages.php">À propos</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div id="langues" class="d-inline float-right ">
+    <!--<div id="langues" class="d-inline float-right ">
         <a class="langue" href="#">FR</a><span id="espace">|</span><a class="langue" href="#">ENG</a>
-    </div>
+    </div>-->
 </header>
-<?php require("header.php")?>
 <section id="chapitres">
-    <div class="row">
-        <div class="col-12 text-center">
-            <h1>Les chapitres</h1>
-        </div>
-    </div>
     <div id="containerChap">
-        <div class="row text-center pb-5">
-            <div class="col-md-1"></div>
-            <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_1.jpg" alt="Page suivante 1" class="chapitrePrev">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>Les épisodes</h1>
             </div>
-            <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_15.jpg" alt="Page suivante 1" class="chapitrePrev">
-            </div>
-            <div class="col-md-1"></div>
         </div>
-        <div class="row pb-5 text-center">
-            <div class="col-md-1"></div>
-            <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_20.jpg" alt="Page suivante 1" class="chapitrePrev">
+        <div class="row text-center pt-5 pl-3 pr-3">
+            <div class="col-12 col-md-3">
+                <a href="#"><img src="assets/img/ep0.jpg" alt="Accéder à l'épisode 0" class="imgChap"></a>
             </div>
-            <div class="col-12 col-md-5">
-            <img src="assets/img/ch1/wu_ep1_22.jpg" alt="Page suivante 1" class="chapitrePrev">
+            <div class="col-12 col-md-3">
+                <a href="#"><img src="assets/img/ep1.jpg" alt="Accéder à l'épisode 1" class="imgChap"></a>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-12 col-md-3">
+                <a href="#"><img src="assets/img/ep2.jpg" alt="Accéder à l'épisode 2" class="imgChap"></a>
+            </div>
+            <div class="col-12 col-md-3">
+                <a href="#"><img src="assets/img/ep3.jpg" alt="Accéder à l'épisode 3" class="imgChap"></a>
+            </div>
+        </div>
+        <div class="row text-center p-5">
+            <div class="col-12">
+                <button>Continuer la progression</button>
+            </div>
         </div>
     </div>
 </section>
 <section id="apropos">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>L'auteure</h1>
+    <div class="containerProp">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>À propos</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-left apropos">
-                <img src="https://66.media.tumblr.com/fa8d8f320eaaa8ba2384c7aabe9168cd/tumblr_inline_peov8h5Nma1vvhvth_500.png"/>
-
-<p>Camille Van Hoof est illustratrice, auteur et bruxelloise. Elle aime les histoires d'aventure et les dessins sensibles et colorés. Elle remplit compulsivement des carnets à dessins.
-</p>
-—-
-<p>
-En 2013, Camille termine un bachelier en Illustration à Saint Luc (Bruxelles).
-
-L'année suivante, elle illustre son premier livre: les Petits Commandeurs, écrit par Valérie Larrondo et publié au Seuil.
-
-En 2016, elle sort son second livre: Drôle d'arbre, chez Versant Sud Jeunesse. Cette fois elle écrit l'histoire.
-
-Au passage, elle passe quatre mois d'Erasmus à la Haute école des Arts du Rhin à Strasbourg.
-
-En 2018, elle termine un master de Communication Visuelle et Graphique à la Cambre (Bruxelles).</p>
+        <div class="row p-4">
+            <div class="col-12 text-center">
+                <img src="assets/img/placeholder2.png" class="apropos"/>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-12 text-center proposfond">
+                <img src="assets/img/placeholder1.png" class="apropos"/>
             </div>
         </div>
     </div>
