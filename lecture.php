@@ -1,14 +1,6 @@
 <?php
     require "head.php";
-?>
-<nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
-        <div class="collapse navbar-collapse flex-row" id="navbarToggler">
-            <a href="index.php" aria-label="Return to main page"><img src="assets/img/home-mini-1.jpg"
-                    alt="Retour au menu" /></a>
-        </div>
-    </div>
-</nav>
+    require "header.php"?>
 <section>
     <div class="containerPages">
         <div class="row" id="pageSize">
@@ -28,7 +20,6 @@
                 <a href="#" onclick="hideDiv()"><i class="fas fa-chevron-down"></i></a>
             </div>
         </div>
-
         <div class="carousel">
             <div class="carousel-row">
                 <?php for ( $x = 1 ; $x < 83 ; $x++ ) { ?>
